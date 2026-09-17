@@ -23,7 +23,7 @@ def main():
     _x = [np.min(arrayx), np.max(arrayx)]
     ax.plot(_x, _y, c="orange")
     ax.scatter(arrayx, arrayy)
-    # plt.savefig("cannon_efficency_plot.svg", format="svg")
+    plt.savefig("cannon_efficency_plot.png", format="png")
     plt.show()
 
 if __name__ == "__main__":
