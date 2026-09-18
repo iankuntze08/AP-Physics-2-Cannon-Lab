@@ -13,12 +13,6 @@ def main():
     arrayx = pull_cm
     arrayy = efficiency
 
-
-
-
-
-
-
     l = stats.linregress(arrayx, arrayy)
 
     font = {"family": "serif",
